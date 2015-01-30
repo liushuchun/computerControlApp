@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+<Button android:id="@+id/button2" android:text="下一首" android:layout_width="76dp" android:layout_x="235dp" android:layout_y="77dp" android:layout_height="145dp"></Button>
+<Button android:id="@+id/button3" android:text="上一首" android:layout_x="18dp" android:layout_y="77dp" android:layout_width="88dp" android:layout_height="145dp"></Button>
+<Button android:id="@+id/button1" android:layout_height="144dp" android:text="开始/暂停" android:layout_x="113dp" android:layout_y="78dp" android:layout_width="119dp"></Button>
+<TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1" android:layout_height="match_parent" android:layout_y="226dp" android:layout_width="310dp" android:layout_x="4dp"></TextView>
+<Button android:id="@+id/button5" android:layout_width="64dp" android:text="断开" android:layout_x="246dp" android:layout_height="wrap_content" android:layout_y="8dp"></Button>
+<Button android:id="@+id/button4" android:layout_width="64dp" android:text="连接" android:layout_height="wrap_content" android:layout_x="18dp" android:layout_y="8dp"></Button>
+<EditText android:singleLine="true" android:id="@+id/editText1" android:layout_width="161dp" android:text="192.168.0.195" android:layout_height="wrap_content" android:layout_x="83dp" android:layout_y="8dp" android:inputType="none"></EditText>
+</AbsoluteLayout>
